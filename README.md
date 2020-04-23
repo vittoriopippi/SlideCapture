@@ -16,7 +16,7 @@ Given the path of the video that you want to analyze is `C:\Desktop\video_lessio
 
 After that, basically you have to follow the instruction that appear in the console.
 
-#### Define the slide region
+### Define the slide region
 Will be showed you a frame of the video and asked you to click on the top-left corner of the slide. In the console you will see the coordinates of the point selected. If you want to define the the coordinates manually use the command `--manual`. 
 
 Than you have to click on the bottom-right corner of the slide in order to define the region that will be captured.
@@ -31,7 +31,7 @@ Found point (1440, 994)
 Found this coordinates ((0, 189), (1440, 994)) do you want to continue [y/n/cancel]?y
 ```
 
-#### Define some excluding regions
+### Define some excluding regions
 After that will be asked you if you want to define some regions where the changes are not detected.
 
 Thats because in the Google Meet room sometimes in the bottom left part of the presentation a popup appear when someone leave the call.
@@ -49,7 +49,7 @@ Found this coordinates ((0, 666), (1526, 1075)) do you want to continue [y/n/can
 Do you want to add some excluding area [y/n]?n
 ```
 
-#### Run
+### Run
 Once all regions are defined the script will be run and the video will be analyzed. Every time a new slide is detected it wil be stored in a folder in the same position of the video.
 
 ```
