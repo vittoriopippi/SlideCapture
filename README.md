@@ -4,7 +4,7 @@ SlideCapture is a simple script that analyze a video and extract the slides rafi
 ### What you can do
 Given an example frame of a video that you have recorder, like for instance:
 
-![Sample of a video frame](https://raw.githubusercontent.com/vittoriopippi/SlideCapture/master/images/screen.png?token=AGXIYW5PJKJQK3SG7ZHUT7C6THQMM)
+![Sample of a video frame](https://github.com/vittoriopippi/SlideCapture/blob/master/images/screen.png?raw=true)
 
 is it possible to extract the slide like that:
 
