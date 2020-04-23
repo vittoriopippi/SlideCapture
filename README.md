@@ -14,10 +14,10 @@ Given the path of the video that you want to analyze is `C:\Desktop\video_lessio
 
 > `python3 SlideCapture.py --input C:\Desktop\video_lession.mp4`
 
-After that, basically you have to follow the instruction that appear in the console.
+After that, basically you have to **follow the instruction that appear in the console.**
 
 ### Define the slide region
-Will be showed you a frame of the video and asked you to click on the top-left corner of the slide. In the console you will see the coordinates of the point selected. If you want to define the the coordinates manually use the command `--manual`. 
+Will be showed you a frame of the video and asked you to click on the top-left corner of the slide. In the console you will see the coordinates of the point selected. With the visual selection of the corners an automatic search of the closest corner is implemented, if you want to avoid that and have a more precise selection of the region you can define the coordinates manually using the command `--manual`. 
 
 Than you have to click on the bottom-right corner of the slide in order to define the region that will be captured.
 
